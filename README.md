@@ -86,7 +86,7 @@ Heroku will follow the `build` command in your `package.json` and compile assets
 If you're unfamiliar with Heroku deployment (or just need a refresher), they have a really great walkthrough [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction).
 
 ### REACT + NODE STARTER
-
+If you don't need the router, this is another small starter I built: https://github.com/alanbsmith/react-node-example
 
 ### REDUX STARTER
 If you're looking for a similar, minimalistic Redux starter, I would recommend Marc Garreau's [here](https://github.com/marcgarreau/redux-starter)
