@@ -1,0 +1,70 @@
+body {
+  font-family: helvetica;
+  font-weight: 400;
+  margin: 0;
+  color: #273444;
+}
+
+.sidenav {
+  background: #1F2D3D;
+  bottom: 0;
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.sidenav-brand {
+  color: #F9FAFC;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.sidenav-list {
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.sidenav-list__header {
+  color: #F9FAFC;
+  font-weight: 800;
+  padding: 8px 0;
+  text-transform: capitalize;
+}
+
+.sidenav-list__item {
+  color: #009EEB;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: capitalize;
+  &:hover {
+    color: #1FB6FF;
+    text-decoration: underline;
+  }
+}
+
+.sidenav-list__sub-item {
+  color: #009EEB;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+  text-decoration: none;
+  text-transform: capitalize;
+  &:hover {
+    color: #1FB6FF;
+    text-decoration: underline;
+  }
+}
+
+.content {
+  margin-left: 192px;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0;
+}
