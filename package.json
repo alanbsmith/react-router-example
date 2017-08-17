@@ -1,6 +1,6 @@
 {
   "name": "react-router-node-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "an example for deploying a React Router + NodeJS app to Heroku",
   "main": "server.js",
   "scripts": {
