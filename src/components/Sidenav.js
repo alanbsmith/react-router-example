@@ -41,7 +41,7 @@ const Sidenav = () => {
             className="sidenav-list__sub-item"
             to="/pages/2"
           >
-            page 3
+            page 2
           </Link>
         </li>
         <li>

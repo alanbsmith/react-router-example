@@ -6,9 +6,9 @@ module.exports = {
     './src/index'
   ],
   module: {
-    loaders: [
-      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
+    rules: [
+      { test: /\.js?$/, use: ['babel-loader'], exclude: /node_modules/ },
+      { test: /\.s?css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
     ]
   },
   resolve: {
