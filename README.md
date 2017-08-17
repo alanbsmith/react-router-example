@@ -44,6 +44,11 @@ To run the tests:
 $ npm test
 ```
 
+To run the watch task:
+```
+$ npm run test:watch
+```
+
 ### Production Build
 To build your production assets and run the server:
 ```
